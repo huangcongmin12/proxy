@@ -10,6 +10,8 @@ public class Test {
 		DynamicProxy proxy = new DynamicProxy(source);
 		Sourcable sourceProxy = (Sourcable)proxy.getTarget();
 		sourceProxy.operation();
+		
+		System.out.println("ooookk");
 	}
 
 }
